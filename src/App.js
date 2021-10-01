@@ -11,7 +11,6 @@ import RandomDadJoke from "./cards/randomDadJoke";
 import RandomCatFacts from "./cards/randomCatFacts";
 import ChuckNorrisJoke from "./cards/chuckNorrisJoke";
 import RandomGeekJokes from "./cards/randomGeekJokes";
-import RandomActivity from "./cards/boredAPI";
 
 function App() {
   return (
@@ -28,7 +27,6 @@ function App() {
       <RandomCatFacts />
       <ChuckNorrisJoke />
       <RandomGeekJokes/>
-      <RandomActivity />
     </div>
   );
 }
